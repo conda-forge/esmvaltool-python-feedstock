@@ -16,7 +16,8 @@ outputs:
   - name: esmvaltool-python
     build:
       noarch: python
-      script: {{ PYTHON }} -m pip install . -vv
+    script: build_python.bat  # [win]
+    script: build_python.sh  # [not win]
     requirements:
       build:
         - python >=3.7
