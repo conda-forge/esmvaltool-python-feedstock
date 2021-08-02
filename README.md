@@ -1,5 +1,5 @@
-About esmvaltool-python
-=======================
+About esmvaltool-suite
+======================
 
 Home: https://www.esmvaltool.org
 
@@ -15,11 +15,86 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.6.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.7.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.6.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.7.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.8.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python3.9.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=12642&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/esmvaltool-python-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
@@ -29,28 +104,29 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-esmvaltool-green.svg)](https://anaconda.org/conda-forge/esmvaltool) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/esmvaltool.svg)](https://anaconda.org/conda-forge/esmvaltool) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/esmvaltool.svg)](https://anaconda.org/conda-forge/esmvaltool) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/esmvaltool.svg)](https://anaconda.org/conda-forge/esmvaltool) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-esmvaltool--python-green.svg)](https://anaconda.org/conda-forge/esmvaltool-python) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/esmvaltool-python.svg)](https://anaconda.org/conda-forge/esmvaltool-python) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/esmvaltool-python.svg)](https://anaconda.org/conda-forge/esmvaltool-python) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/esmvaltool-python.svg)](https://anaconda.org/conda-forge/esmvaltool-python) |
 
-Installing esmvaltool-python
-============================
+Installing esmvaltool-suite
+===========================
 
-Installing `esmvaltool-python` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `esmvaltool-suite` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `esmvaltool-python` can be installed with:
+Once the `conda-forge` channel has been enabled, `esmvaltool, esmvaltool-python` can be installed with:
 
 ```
-conda install esmvaltool-python
+conda install esmvaltool esmvaltool-python
 ```
 
-It is possible to list all of the versions of `esmvaltool-python` available on your platform with:
+It is possible to list all of the versions of `esmvaltool` available on your platform with:
 
 ```
-conda search esmvaltool-python --channel conda-forge
+conda search esmvaltool --channel conda-forge
 ```
 
 
@@ -92,17 +168,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating esmvaltool-python-feedstock
-====================================
+Updating esmvaltool-suite-feedstock
+===================================
 
-If you would like to improve the esmvaltool-python recipe or build a new
+If you would like to improve the esmvaltool-suite recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/esmvaltool-python-feedstock are
+Note that all branches in the conda-forge/esmvaltool-suite-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
