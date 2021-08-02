@@ -19,8 +19,8 @@ outputs:
       script: python -m pip install . -vv
     requirements:
       build:
-        - python
-        - cross-python_{{ target_platform }}  # [build_platform != target_platform]
+        - python >=3.7
+        - pip
       host:
         - python >=3.7
         - setuptools_scm
