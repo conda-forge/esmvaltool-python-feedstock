@@ -138,6 +138,8 @@ outputs:
   #       - r-base>=3.5
 
   - name: esmvaltool
+    build:
+      noarch: python
     requirements:
       host:
         - python
