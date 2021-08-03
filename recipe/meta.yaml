@@ -158,7 +158,6 @@ outputs:
         - r-snow
         - r-spei
         - r-styler
-        - r-tools
         - r-udunits2
         - r-yaml
     test:
