@@ -149,7 +149,7 @@ outputs:
         - r-maps
         - r-multiapply
         - r-ncdf4
-        - r-ncdf4.helpers
+        # - r-ncdf4.helpers
         - r-pcict
         - r-plyr
         - r-rcolorbrewer
