@@ -127,14 +127,40 @@ outputs:
   - name: esmvaltool-r
     build:
       noarch: generic
-      post-link: install-r-deps
     requirements:
       run:
-        - cdo>=1.9.7
+        - cdo >=1.9.7
         - compilers
         - esmvaltool-python
         - nco
-        - r-base>=3.5
+        - r-base >=3.5
+        - r-abind
+        - r-akima
+        - r-climdex.pcic
+        - r-climprojdiags
+        - r-docopt
+        - r-dotcall64
+        - r-functional
+        - r-ggplot2
+        - r-gridextra
+        - r-lintr
+        - r-logging
+        - r-mapproj
+        - r-maps
+        - r-multiapply
+        - r-ncdf4
+        - r-ncdf4.helpers
+        - r-pcict
+        - r-plyr
+        - r-rcolorbrewer
+        - r-rcpp
+        - r-s2dverification
+        - r-snow
+        - r-spei
+        - r-styler
+        - r-tools
+        - r-udunits2
+        - r-yaml
     test:
       source_files:
         - tests
