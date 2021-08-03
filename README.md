@@ -32,6 +32,7 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-esmvaltool-green.svg)](https://anaconda.org/conda-forge/esmvaltool) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/esmvaltool.svg)](https://anaconda.org/conda-forge/esmvaltool) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/esmvaltool.svg)](https://anaconda.org/conda-forge/esmvaltool) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/esmvaltool.svg)](https://anaconda.org/conda-forge/esmvaltool) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-esmvaltool--ncl-green.svg)](https://anaconda.org/conda-forge/esmvaltool-ncl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/esmvaltool-ncl.svg)](https://anaconda.org/conda-forge/esmvaltool-ncl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/esmvaltool-ncl.svg)](https://anaconda.org/conda-forge/esmvaltool-ncl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/esmvaltool-ncl.svg)](https://anaconda.org/conda-forge/esmvaltool-ncl) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-esmvaltool--python-green.svg)](https://anaconda.org/conda-forge/esmvaltool-python) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/esmvaltool-python.svg)](https://anaconda.org/conda-forge/esmvaltool-python) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/esmvaltool-python.svg)](https://anaconda.org/conda-forge/esmvaltool-python) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/esmvaltool-python.svg)](https://anaconda.org/conda-forge/esmvaltool-python) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-esmvaltool--r-green.svg)](https://anaconda.org/conda-forge/esmvaltool-r) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/esmvaltool-r.svg)](https://anaconda.org/conda-forge/esmvaltool-r) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/esmvaltool-r.svg)](https://anaconda.org/conda-forge/esmvaltool-r) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/esmvaltool-r.svg)](https://anaconda.org/conda-forge/esmvaltool-r) |
 
 Installing esmvaltool-suite
 ===========================
@@ -43,10 +44,10 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `esmvaltool, esmvaltool-ncl, esmvaltool-python` can be installed with:
+Once the `conda-forge` channel has been enabled, `esmvaltool, esmvaltool-ncl, esmvaltool-python, esmvaltool-r` can be installed with:
 
 ```
-conda install esmvaltool esmvaltool-ncl esmvaltool-python
+conda install esmvaltool esmvaltool-ncl esmvaltool-python esmvaltool-r
 ```
 
 It is possible to list all of the versions of `esmvaltool` available on your platform with:
